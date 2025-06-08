@@ -1,0 +1,15 @@
+<Window x:Class="LibraryManagementWPF.StudentLoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Student Login" Height="300" Width="400"
+        Background="{DynamicResource BackgroundBrush}"
+        Foreground="{DynamicResource ForegroundBrush}">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Spacing="10">
+            <TextBlock Text="Student Login" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+            <TextBox Name="StudentIdTextBox" PlaceholderText="Student ID" />
+            <Button Content="Login" Height="40" Click="LoginButton_Click" />
+            <Button Content="Back" Height="40" Click="BackButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
